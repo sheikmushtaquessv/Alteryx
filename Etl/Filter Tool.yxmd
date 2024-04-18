@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Category] = "Furniture"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Category] = "Furniture"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Category] = "Technology"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Category] = "Technology"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Category","Sub-Category"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Career\Excel\Sample - Superstore.xls|||`Orders$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample - Superstore.xls
+Query=`Orders$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="False" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Filter Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="de3fcc91-04b7-41e7-92f8-686ed9db51fb" />
+      <Telemetry>
+        <PreviousWorkflowId value="065a9c49-13ea-4223-ba90-5e9183c7cb76" />
+        <OriginWorkflowId value="065a9c49-13ea-4223-ba90-5e9183c7cb76" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Career\Excel\Excel.xlsx|||`Consumer$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excel.xlsx
+Query=`Consumer$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Career\Excel\Excel.xlsx|||`Corporate$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excel.xlsx
+Query=`Corporate$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="162" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="1" />
+                <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="2" />
+                <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" column="3" />
+                <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" column="4" />
+                <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="5" />
+                <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="6" />
+                <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="7" />
+                <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="8" />
+                <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="9" />
+                <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="10" />
+                <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="11" />
+                <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="12" />
+                <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="13" />
+                <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="14" />
+                <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="15" />
+                <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" column="16" />
+                <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_WString" column="17" />
+                <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="18" />
+                <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="19" />
+                <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="20" />
+                <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" column="21" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="1" />
+                <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="2" />
+                <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" column="3" />
+                <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" column="4" />
+                <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="5" />
+                <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="6" />
+                <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="7" />
+                <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="8" />
+                <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="9" />
+                <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="10" />
+                <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="11" />
+                <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="12" />
+                <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="13" />
+                <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="14" />
+                <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="15" />
+                <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" column="16" />
+                <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_WString" column="17" />
+                <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="18" />
+                <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="19" />
+                <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="20" />
+                <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" column="21" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_16568_e7c83a2e0adee34e957be98aac734af7_\Engine_16568_9dbe7a82d297714ca2db3936ce6537e7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Union Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="18fefb6f-5434-483f-8453-33fcae316f98" />
+      <Telemetry>
+        <PreviousWorkflowId value="ca00d199-0db2-4d31-9e32-9caf4418e1e4" />
+        <OriginWorkflowId value="ca00d199-0db2-4d31-9e32-9caf4418e1e4" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

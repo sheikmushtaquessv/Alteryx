@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="198" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Career\Excel\ElectronicsProductsPricingData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ElectronicsProductsPricingData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.amountMax" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.amountMin" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.availability" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.condition" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.currency" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.dateSeen" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.isSale" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.merchant" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.shipping" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.sourceURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="asins" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="categories" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="dateAdded" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="dateUpdated" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="ean" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="imageURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="keys" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="manufacturer" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="manufacturerNumber" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="primaryCategories" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="sourceURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="upc" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_29" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_30" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_31" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_16860_51f0ca4a83901a4c96bfd784d328d4ae_\Engine_16860_70b9326a67059d43ad1f26697a77d861~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="prices.amountMax" selected="True" type="Int16" size="2" />
+            <SelectField field="prices.amountMin" selected="True" type="Int32" size="4" />
+            <SelectField field="prices.availability" selected="True" />
+            <SelectField field="prices.condition" selected="True" />
+            <SelectField field="prices.currency" selected="True" />
+            <SelectField field="prices.dateSeen" selected="True" type="Date" size="10" />
+            <SelectField field="prices.isSale" selected="True" />
+            <SelectField field="prices.merchant" selected="True" />
+            <SelectField field="prices.shipping" selected="True" />
+            <SelectField field="prices.sourceURLs" selected="True" />
+            <SelectField field="asins" selected="True" />
+            <SelectField field="brand" selected="True" />
+            <SelectField field="categories" selected="True" />
+            <SelectField field="dateAdded" selected="True" type="Date" size="10" />
+            <SelectField field="dateUpdated" selected="True" />
+            <SelectField field="imageURLs" selected="True" />
+            <SelectField field="keys" selected="True" />
+            <SelectField field="manufacturer" selected="True" />
+            <SelectField field="manufacturerNumber" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="primaryCategories" selected="True" />
+            <SelectField field="sourceURLs" selected="True" />
+            <SelectField field="upc" selected="True" />
+            <SelectField field="weight" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="438" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"manufacturer"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ea4b65bd-78c8-4f14-b5fb-323ba711ce28" />
+      <Telemetry>
+        <PreviousWorkflowId value="e75be204-b225-4d56-b3cd-5d1ead9aa414" />
+        <OriginWorkflowId value="e75be204-b225-4d56-b3cd-5d1ead9aa414" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

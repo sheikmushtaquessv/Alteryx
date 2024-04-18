@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Career\Excel\Excel.xlsx|||`Consumer$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excel.xlsx
+Query=`Consumer$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Career\Excel\Excel.xlsx|||`Corporate$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excel.xlsx
+Query=`Corporate$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Corporate$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Row ID" selected="True" rename="S No" input="Left_" type="Int16" size="2" description="Serial Number" />
+                <SelectField field="Right_Row ID" selected="True" rename="Right_Row ID" input="Right_" />
+                <SelectField field="Right_Order ID" selected="True" rename="Right_Order ID" input="Right_" />
+                <SelectField field="Right_Order Date" selected="True" rename="Right_Order Date" input="Right_" />
+                <SelectField field="Right_Ship Date" selected="True" rename="Right_Ship Date" input="Right_" />
+                <SelectField field="Right_Ship Mode" selected="True" rename="Right_Ship Mode" input="Right_" />
+                <SelectField field="Right_Customer ID" selected="True" rename="Right_Customer ID" input="Right_" />
+                <SelectField field="Right_Customer Name" selected="True" rename="Right_Customer Name" input="Right_" />
+                <SelectField field="Right_Segment" selected="True" rename="Right_Segment" input="Right_" />
+                <SelectField field="Right_Country" selected="True" rename="Right_Country" input="Right_" />
+                <SelectField field="Right_City" selected="True" rename="Right_City" input="Right_" />
+                <SelectField field="Right_State" selected="True" rename="Right_State" input="Right_" />
+                <SelectField field="Right_Postal Code" selected="True" rename="Right_Postal Code" input="Right_" />
+                <SelectField field="Right_Region" selected="True" rename="Right_Region" input="Right_" />
+                <SelectField field="Right_Product ID" selected="True" rename="Right_Product ID" input="Right_" />
+                <SelectField field="Right_Category" selected="True" rename="Right_Category" input="Right_" />
+                <SelectField field="Right_Sub-Category" selected="True" rename="Right_Sub-Category" input="Right_" />
+                <SelectField field="Right_Product Name" selected="True" rename="Right_Product Name" input="Right_" />
+                <SelectField field="Right_Sales" selected="True" rename="Right_Sales" input="Right_" />
+                <SelectField field="Right_Quantity" selected="True" rename="Right_Quantity" input="Right_" />
+                <SelectField field="Right_Discount" selected="True" rename="Right_Discount" input="Right_" />
+                <SelectField field="Right_Profit" selected="True" rename="Right_Profit" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="462" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Right" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Join1 Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0853ec94-b54b-4900-a68b-5d142b5554f5" />
+      <Telemetry>
+        <PreviousWorkflowId value="6ecbef64-e58f-44fc-ab27-e58d591dff1c" />
+        <OriginWorkflowId value="6ecbef64-e58f-44fc-ab27-e58d591dff1c" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

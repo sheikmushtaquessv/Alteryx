@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Career\Excel\ElectronicsProductsPricingData.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ElectronicsProductsPricingData.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.amountMax" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.amountMin" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.availability" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.condition" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.currency" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.dateSeen" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.isSale" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.merchant" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.shipping" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="prices.sourceURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="asins" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="categories" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="dateAdded" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="dateUpdated" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="ean" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="imageURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="keys" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="manufacturer" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="manufacturerNumber" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="primaryCategories" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="sourceURLs" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="upc" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_29" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_30" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+            <Field name="Field_31" size="254" source="File: C:\Career\Excel\ElectronicsProductsPricingData.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_32656_fad7e8075bb9264fa8489aa26131a792_\Engine_32656_d27f33f563ac0349869bfc982e0e0b7e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="prices.amountMax" selected="True" type="WString" size="16384" />
+            <SelectField field="prices.amountMin" selected="True" size="2147483647" />
+            <SelectField field="prices.availability" selected="True" />
+            <SelectField field="prices.condition" selected="True" />
+            <SelectField field="prices.currency" selected="True" />
+            <SelectField field="prices.dateSeen" selected="True" type="Date" size="10" />
+            <SelectField field="prices.isSale" selected="True" type="Bool" size="1" />
+            <SelectField field="prices.merchant" selected="True" />
+            <SelectField field="prices.shipping" selected="True" />
+            <SelectField field="prices.sourceURLs" selected="True" />
+            <SelectField field="asins" selected="True" />
+            <SelectField field="brand" selected="True" />
+            <SelectField field="categories" selected="True" />
+            <SelectField field="dateAdded" selected="True" type="Date" size="10" />
+            <SelectField field="dateUpdated" selected="True" type="Date" size="10" />
+            <SelectField field="ean" selected="True" />
+            <SelectField field="imageURLs" selected="True" />
+            <SelectField field="keys" selected="True" />
+            <SelectField field="manufacturer" selected="True" />
+            <SelectField field="manufacturerNumber" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="primaryCategories" selected="True" />
+            <SelectField field="sourceURLs" selected="True" />
+            <SelectField field="upc" selected="True" />
+            <SelectField field="weight" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="categories" action="GroupBy" rename="categories" />
+            <SummarizeField field="prices.amountMax" action="Avg" rename="Avg_prices.amountMax" />
+            <SummarizeField field="prices.amountMax" action="Max" rename="Max_prices.amountMax" />
+            <SummarizeField field="prices.amountMin" action="Min" rename="Min_prices.amountMin" />
+            <SummarizeField field="prices.amountMax" action="Median" rename="Median_prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Avg_prices.amountMax" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="Median_prices.amountMax" selected="True" type="FixedDecimal" size="19.2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="234" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="brand" action="GroupBy" rename="brand" />
+            <SummarizeField field="prices.amountMax" action="Median" rename="Median_prices.amountMax" />
+            <SummarizeField field="prices.amountMax" action="Max" rename="Max_prices.amountMax" />
+            <SummarizeField field="prices.amountMax" action="Min" rename="Min_prices.amountMax" />
+            <SummarizeField field="prices.amountMax" action="Avg" rename="Avg_prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="prices.dateSeen" action="GroupBy" rename="prices.dateSeen" />
+            <SummarizeField field="brand" action="GroupBy" rename="brand" />
+            <SummarizeField field="categories" action="GroupBy" rename="categories" />
+            <SummarizeField field="prices.merchant" action="GroupBy" rename="prices.merchant" />
+            <SummarizeField field="prices.amountMax" action="Median" rename="Median_prices.amountMax" />
+            <SummarizeField field="prices.amountMax" action="Max" rename="Max_prices.amountMax" />
+            <SummarizeField field="prices.amountMin" action="Min" rename="Min_prices.amountMin" />
+            <SummarizeField field="prices.amountMax" action="Avg" rename="Avg_prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Max_prices.amountMax] - [Min_prices.amountMin]&#xA;" field=" price range " size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[ price range  = [Max_prices.amountMax] - [Min_prices.amountMin]
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="prices.dateSeen" selected="True" />
+            <SelectField field="brand" selected="True" />
+            <SelectField field="categories" selected="True" />
+            <SelectField field="prices.merchant" selected="True" />
+            <SelectField field="Median_prices.amountMax" selected="True" />
+            <SelectField field="Avg_prices.amountMax" selected="True" />
+            <SelectField field=" price range " selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="522" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="prices.dateSeen" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prices.dateSeen - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="prices.availability" action="GroupBy" rename="prices.availability" />
+            <SummarizeField field="prices.amountMax" action="GroupBy" rename="prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([prices.amountMax]) THEN &quot;Not Available&quot; ELSE &quot;Available&quot; ENDIF&#xA;" field="price availability based on the available data." size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>price availability based on the available data. = IF ISNULL([prices.amountMax]) ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="210" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([prices.shipping]) THEN 0 ELSE [prices.shipping] ENDIF&#xA;" field="prices.shipping" size="254" type="V_String" />
+            <FormulaField expression="IF ISNULL([ean]) THEN 0 ELSE [ean] ENDIF&#xA;" field="ean" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prices.shipping = IF ISNULL([prices.shipping]) THEN 0 ELSE [prices.shipping] END...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="342" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="id" />
+            <Field field="prices.availability" />
+            <Field field="prices.merchant" />
+            <Field field="brand" />
+            <Field field="name" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id" selected="True" />
+            <SelectField field="prices.availability" selected="True" />
+            <SelectField field="prices.merchant" selected="True" />
+            <SelectField field="brand" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ElectronicsProducts</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0fe521ec-023e-45e2-8b38-2f9e3940402b" />
+      <Telemetry>
+        <PreviousWorkflowId value="9c9d5611-8c8a-440b-8b17-b1c68b21ab9f" />
+        <OriginWorkflowId value="9c9d5611-8c8a-440b-8b17-b1c68b21ab9f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

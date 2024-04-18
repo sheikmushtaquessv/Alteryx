@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="4" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\HP\Downloads\Orders.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Orders.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Order ID" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Order Date" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Month" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Day" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Ship Mode" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Customer ID" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Customer Name" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Region" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Product ID" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Sub-Category" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Product Name" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Sales" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Quantity" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Discount" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="Profit" size="254" source="File: C:\Users\HP\Downloads\Orders.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Orders</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="69728bef-e352-4c77-a27e-d5655814bb5e" />
+      <Telemetry>
+        <PreviousWorkflowId value="55995f99-c37d-42f5-91b4-757eb155bdb6" />
+        <OriginWorkflowId value="55995f99-c37d-42f5-91b4-757eb155bdb6" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

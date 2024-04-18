@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Career\Excel\Sample - Superstore.xls|||`Orders$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample - Superstore.xls
+Query=`Orders$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Sample - Superstore.xls|||`Orders$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Category","Sub-Category"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="294" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Row ID" selected="True" rename="S.no" input="Target_" type="Int64" size="8" />
+                <SelectField field="Source_Order ID" selected="True" rename="Source_Order ID" input="Source_" />
+                <SelectField field="Source_Order Date" selected="True" rename="Source_Order Date" input="Source_" />
+                <SelectField field="Source_Ship Date" selected="True" rename="Source_Ship Date" input="Source_" />
+                <SelectField field="Source_Ship Mode" selected="True" rename="Source_Ship Mode" input="Source_" />
+                <SelectField field="Source_Customer ID" selected="True" rename="Source_Customer ID" input="Source_" />
+                <SelectField field="Source_Customer Name" selected="True" rename="Source_Customer Name" input="Source_" />
+                <SelectField field="Source_Segment" selected="True" rename="Source_Segment" input="Source_" />
+                <SelectField field="Source_Country" selected="True" rename="Source_Country" input="Source_" />
+                <SelectField field="Source_City" selected="True" rename="Source_City" input="Source_" />
+                <SelectField field="Source_State" selected="True" rename="Source_State" input="Source_" />
+                <SelectField field="Source_Postal Code" selected="True" rename="Source_Postal Code" input="Source_" />
+                <SelectField field="Source_Region" selected="True" rename="Source_Region" input="Source_" />
+                <SelectField field="Source_Product ID" selected="True" rename="Source_Product ID" input="Source_" />
+                <SelectField field="Source_Category" selected="True" rename="Source_Category" input="Source_" />
+                <SelectField field="Source_Sub-Category" selected="True" rename="Source_Sub-Category" input="Source_" />
+                <SelectField field="Source_Product Name" selected="True" rename="Source_Product Name" input="Source_" />
+                <SelectField field="Source_Sales" selected="True" rename="Source_Sales" input="Source_" />
+                <SelectField field="Source_Quantity" selected="True" rename="Source_Quantity" input="Source_" />
+                <SelectField field="Source_Discount" selected="True" rename="Source_Discount" input="Source_" />
+                <SelectField field="Source_Profit" selected="True" rename="Source_Profit" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Career\Excel\Excel.xlsx|||`Consumer$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Excel.xlsx
+Query=`Consumer$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Order Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Date" />
+            <Field name="Ship Mode" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Customer Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Segment" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Country" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Postal Code" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product ID" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Sub-Category" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Discount" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+            <Field name="Profit" source="File: C:\Career\Excel\Excel.xlsx|||`Consumer$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\HP\AppData\Local\Temp\Engine_12392_3a8d3e4b13958247945549172a6c0239_\Engine_12392_363987fddd1c2344887c45ff96718652~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="3" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Append Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="30c5b6fa-71fd-4318-b972-bee7e2af4edd" />
+      <Telemetry>
+        <PreviousWorkflowId value="0e3c1e09-f081-4265-9707-330f7c056745" />
+        <OriginWorkflowId value="0e3c1e09-f081-4265-9707-330f7c056745" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.MapInput.MapInput">
+        <Position x="174" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Draw</Mode>
+          <ReferenceFile />
+          <JSMapSettings>{"base":true,"drawn features":true}</JSMapSettings>
+          <Bounds>
+            <MinX>78.508301</MinX>
+            <MaxX>78.508301</MaxX>
+            <MinY>17.434511</MinY>
+            <MaxY>17.434511</MaxY>
+          </Bounds>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Label" />
+            <Field name="SpatialObj" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Home</c>
+              <c>{"type":"point","coordinates":[78.508301,17.434511]}</c>
+            </r>
+          </Data>
+          <BaseMap>Alteryx_Dark</BaseMap>
+          <ReferenceFileRecordCount>0</ReferenceFileRecordCount>
+          <ReferenceFileByteCount>0</ReferenceFileByteCount>
+          <ReferenceFileLabelField />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxMapInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Map Input Tool</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bc72183f-be26-4916-9ff3-c31ae27500e8" />
+      <Telemetry>
+        <PreviousWorkflowId value="cc0d76c3-1eb8-49f7-9c2a-9822f07cee68" />
+        <OriginWorkflowId value="cc0d76c3-1eb8-49f7-9c2a-9822f07cee68" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

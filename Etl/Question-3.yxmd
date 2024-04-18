@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ElectronicsProductsPricingData1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.amountMax" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.amountMin" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.availability" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.condition" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.currency" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.dateSeen" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.isSale" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.merchant" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.shipping" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="asins" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="categories" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="dateAdded" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="dateUpdated" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="ean" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="imageURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="keys" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturer" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturerNumber" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="primaryCategories" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="upc" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_29" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_30" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_31" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="162" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="brand" action="GroupBy" rename="brand" />
+            <SummarizeField field="prices.merchant" action="GroupBy" rename="prices.merchant" />
+            <SummarizeField field="prices.amountMax" action="GroupBy" rename="prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>brand</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-03-28 12:25:14</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Alpine</Operand>
+              <StartDate>2024-03-28 12:25:14</StartDate>
+              <EndDate>2024-03-28 12:25:14</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[brand] = "Alpine"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="366" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>brand</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-03-28 12:26:15</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Yamaha</Operand>
+              <StartDate>2024-03-28 12:26:15</StartDate>
+              <EndDate>2024-03-28 12:26:15</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[brand] = "Yamaha"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\HP\Desktop\example1.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>example1.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="366" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>brand</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-03-28 12:40:04</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>lenovo</Operand>
+              <StartDate>2024-03-28 12:40:04</StartDate>
+              <EndDate>2024-03-28 12:40:04</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[brand] = "lenovo"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="prices.amountMax" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prices.amountMax - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Question-3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d38be069-f91a-4daf-a0b4-481be5cc353a" />
+      <Telemetry>
+        <PreviousWorkflowId value="934e2c0d-e11e-4e12-9e9b-c3af3a9ba2de" />
+        <OriginWorkflowId value="934e2c0d-e11e-4e12-9e9b-c3af3a9ba2de" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

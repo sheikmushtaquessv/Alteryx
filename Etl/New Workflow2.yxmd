@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ElectronicsProductsPricingData1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.amountMax" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.amountMin" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.availability" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.condition" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.currency" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.dateSeen" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.isSale" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.merchant" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.shipping" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="asins" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="brand" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="categories" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="dateAdded" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="dateUpdated" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="ean" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="imageURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="keys" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturer" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturerNumber" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="primaryCategories" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="upc" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_29" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_30" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_31" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="id" selected="True" />
+            <Field field="prices.amountMax" selected="True" />
+            <Field field="prices.amountMin" selected="True" />
+            <Field field="prices.availability" selected="True" />
+            <Field field="prices.condition" selected="True" />
+            <Field field="prices.currency" selected="True" />
+            <Field field="prices.dateSeen" selected="True" />
+            <Field field="prices.isSale" selected="True" />
+            <Field field="prices.merchant" selected="True" />
+            <Field field="prices.shipping" selected="True" />
+            <Field field="prices.sourceURLs" selected="True" />
+            <Field field="asins" selected="True" />
+            <Field field="brand" selected="True" />
+            <Field field="categories" selected="True" />
+            <Field field="dateAdded" selected="True" />
+            <Field field="dateUpdated" selected="True" />
+            <Field field="ean" selected="True" />
+            <Field field="imageURLs" selected="True" />
+            <Field field="keys" selected="True" />
+            <Field field="manufacturer" selected="True" />
+            <Field field="manufacturerNumber" selected="True" />
+            <Field field="name" selected="True" />
+            <Field field="primaryCategories" selected="True" />
+            <Field field="sourceURLs" selected="True" />
+            <Field field="upc" selected="True" />
+            <Field field="weight" selected="True" />
+            <Field field="Field_27" selected="True" />
+            <Field field="Field_28" selected="True" />
+            <Field field="Field_29" selected="True" />
+            <Field field="Field_30" selected="True" />
+            <Field field="Field_31" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="20" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="prices.amountMax" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="Double" />
+            <Field name="prices.amountMin" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="Double" />
+            <Field name="prices.availability" size="15" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.condition" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.currency" size="3" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="prices.dateSeen" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.isSale" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="Bool" />
+            <Field name="prices.merchant" size="36" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.shipping" size="48" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="prices.sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="asins" size="54" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="brand" size="30" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="categories" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="dateAdded" size="20" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="dateUpdated" size="20" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="ean" size="33" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="imageURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="keys" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturer" size="97" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="manufacturerNumber" size="30" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="name" size="195" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="primaryCategories" size="21" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="sourceURLs" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="String" />
+            <Field name="upc" size="110" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="weight" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_29" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="Double" />
+            <Field name="Field_30" size="10" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+            <Field name="Field_31" size="10" source="File: C:\Users\HP\Downloads\archive\ElectronicsProductsPricingData1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"id","prices.amountMax","prices.amountMin","prices.availability","prices.condition","prices.currency","prices.dateSeen","prices.isSale","prices.merchant","prices.shipping","prices.sourceURLs","asins","brand","categories","dateAdded","dateUpdated","ean","imageURLs","keys","manufacturer","manufacturerNumber","name","primaryCategories","sourceURLs","upc","weight","Field_27","Field_28","Field_29","Field_30","Field_31"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="522" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[brand]="Samsung"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[brand]="Samsung"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="606" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="prices.condition" action="GroupBy" rename="prices.condition" />
+            <SummarizeField field="brand" action="GroupBy" rename="brand" />
+            <SummarizeField field="prices.amountMax" action="Sum" rename="Sum_prices.amountMax" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0127a901-7489-4148-9cb0-3b2e1ee60c03" />
+      <Telemetry>
+        <PreviousWorkflowId value="8b4fd0dc-b654-4fb2-afa3-71f203159af5" />
+        <OriginWorkflowId value="8b4fd0dc-b654-4fb2-afa3-71f203159af5" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
